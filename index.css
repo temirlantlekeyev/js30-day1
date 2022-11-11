@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://pbs.twimg.com/media/FMsOL_dX0AIMxQ5.jpg);
+    background-size: 1200px 900px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.keys {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    
+
+}
+.keys1{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    padding-bottom: 40px;
+    
+}
+
+.keys2{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    padding-bottom: 40px;
+}
+
+.keys3{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+}
+
+.key {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+    
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: 12px;
+    padding: 10px;
+    transition: all 0.07s;
+    width: 100px;
+    text-shadow: 0 0 5px yellow;
+    background: transparent;
+    color: white;
+} 
+
+.playing {
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 10px yellowgreen;
+}
+
+kbd{
+    display: block;
+    font-size: 40px;
+    background: transparent;
+}
+
+.sound {
+    /* font-size: 1.2rem; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: yellow;
+    background: transparent;
+}
